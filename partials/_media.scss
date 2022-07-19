@@ -1,0 +1,78 @@
+/* Celular */
+
+@media only screen and (max-width: 480px) {
+
+    .header__navegation {
+
+        flex-direction: column;
+    
+    
+    }
+
+    .article {
+        height: 300vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: flex-end;
+        font-size: small;
+    }
+
+
+
+    section {
+
+        overflow: hidden;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-rows: auto 2fr auto;
+        grid-row-gap: 34px;
+    }
+
+
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+
+
+    #grid {
+        display: grid;
+        grid-template-rows: auto 2fr auto;
+        grid-row-gap: 34px;
+    }
+
+    
+
+    section {
+        
+        overflow: hidden;
+    }
+
+    .article {
+        height: 300vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: flex-end;
+        font-size: small;
+    }
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+
+
+    section {
+        overflow: hidden;
+    }
+  
+
+
+
+}

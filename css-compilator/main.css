@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(90deg, black 0%, #11111d 60%, #0e092e 100%);
+  color: white; }
+
+html {
+  font-size: 0.99rem; }
+
+.header {
+  padding: 1rem;
+  margin: 1rem;
+  height: 120vh; }
+  .header__title {
+    text-align: left;
+    text-decoration: underline;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    color: #c5c5df;
+    height: 33vh; }
+  .header__profesion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #c5c5df;
+    margin-bottom: 8%; }
+  .header__navegation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px; }
+  .header__item {
+    padding: 20px 30px;
+    top: 0px;
+    margin: 0.5rem; }
+
+.card--img {
+  opacity: 0.2;
+  height: 150vh;
+  width: 100%; }
+
+.card__title {
+  font-family: 'Chakra Petch', sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  margin: 5rem; }
+
+section {
+  grid-area: section; }
+
+.article {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-style: normal;
+  line-height: 30px;
+  padding: 2rem;
+  margin: 2rem; }
+
+.section__img {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 7rem;
+  margin: 7rem; }
+
+.footer {
+  padding: 2rem; }
+  .footer__text {
+    text-align: center;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: darkslateblue; }
+  .footer__img {
+    background-image: url(../assets/istockphoto-583816756-170667a.jpg);
+    background-repeat: space;
+    padding: 80px;
+    margin-top: 20px; }
+
+/* mobile */
+@media only screen and (min-width: 480px) and (max-width: 1024) {
+  .article {
+    height: 400vh;
+    width: 100%;
+    justify-content: start;
+    flex-direction: column; } }

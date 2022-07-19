@@ -1,0 +1,24 @@
+.footer {
+
+    padding: 2rem;
+ 
+    &__text {
+        text-align: center;
+        text-decoration: underline;
+        font-style: normal;
+        font-size: 1.6rem;
+        color:darkslateblue;
+    
+        
+    }
+
+    &__img {
+        background-image: url(../assets/istockphoto-583816756-170667a.jpg);
+        background-repeat: space;
+        padding: 80px;
+        margin-top: 20px;
+        
+    }
+    
+    
+}
